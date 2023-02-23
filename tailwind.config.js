@@ -10,7 +10,8 @@ module.exports = {
         "gri" : "#e6e6e6",
         "blauw" : "#546ff4",
         "geel" : "#eba31a",
-        "roos" : "#db3751"
+        "roos" : "#db3751",
+        "donker" : "#1d2d4e"
       },
       "30%" : "30%",
       "15px" : "15px"
