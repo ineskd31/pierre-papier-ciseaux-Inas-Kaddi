@@ -13,8 +13,14 @@ module.exports = {
         "roos" : "#db3751",
         "donker" : "#1d2d4e"
       },
+      boxShadow: {
+        "shadowbleu" : '0px 8px 0px -10px rgb(222,225,240,1)',
+      },
+      
       "30%" : "30%",
-      "15px" : "15px"
+      "40%" : "40%",
+      "15px" : "15px",
+      "600px" : "600px",
     },
   },
   plugins: [],
