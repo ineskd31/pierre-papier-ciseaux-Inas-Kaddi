@@ -1,5 +1,5 @@
 import Score from "./components/Score";
-import Game from "./components/Game";
+import Home from "./components/Home";
 import Rules from "./components/Rules";
 
 
@@ -9,9 +9,9 @@ function App() {
     <div className="App">
 
         <Score />
-        <Game />
+        <Home />
         <Rules />
-        
+
     </div>
   );
 }

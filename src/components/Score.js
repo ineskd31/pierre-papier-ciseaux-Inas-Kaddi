@@ -1,4 +1,4 @@
-
+import logo from "../logo.svg"
 
 
 
@@ -6,15 +6,13 @@
 
 export default function Score(){
     return(
-        <div>
+        <div className="flex justify-between ml-[30%] mr-[30%] mt-10 border-4 rounded-xl p-4">
             <div>
-                <p>ROCK</p>
-                <p>PAPER</p>
-                <p>SCISSORS</p>
+                <img src={logo} alt="" />
             </div>
-            <div>
+            <div className="bg-gray-200 flex flex-col items-center justify-center w-36 rounded-xl">
                 <p>score</p>
-                <p>12</p>
+                <p className=" text-4xl">12</p>
             </div>
         </div>
     )
